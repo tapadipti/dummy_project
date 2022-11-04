@@ -1,0 +1,19 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python train.py
+    deps:
+    - path: train.py
+      md5: 2cf47346334772415660da508fb5d29e
+      size: 212
+    params:
+      params.yaml:
+        train.batch_size: 128
+        train.dropout: 0.4
+        train.hidden_units: 64
+        train.lr: 0.01
+        train.num_epochs: 1
+    outs:
+    - path: metrics.json
+      md5: 37991ac6c009c1c3803641384d034c4e
+      size: 60
