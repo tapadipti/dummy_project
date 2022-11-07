@@ -1,3 +1,6 @@
 mm1:
   path: mm
   type: model
+mm2:
+  path: mm2
+  type: model
