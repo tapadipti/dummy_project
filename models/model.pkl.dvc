@@ -1,0 +1,5 @@
+frozen: true
+deps:
+- path: gs://model.pkl
+outs:
+- path: model.pkl

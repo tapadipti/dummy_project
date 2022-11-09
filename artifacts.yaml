@@ -4,3 +4,6 @@ mm1:
 mm2:
   path: mm2
   type: model
+my-model-name:
+  path: models/model.pkl
+  type: model
